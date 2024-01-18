@@ -23,7 +23,7 @@ and make comments about those stocks for future reference.**
 
 Endpoints: 
 1. ```api/stock``` (GET): Returns all stocks in "Stocks" table with the constraints of the query object.
-2. ```api/stock/{id:int} (GET)``` Returns a particular stock given its ID.
+2. ```api/stock/{id:int}``` (GET) Returns a particular stock given its ID.
 3. ```api/stock``` (POST): Creates a stock based on input value given (Symbol, Company Name, Purchase, LastDiv, Industry, and Market Cap).
 4. ```api/stock/{id:int}``` (PUT): Updates a stock based on its ID and an input given (Symbol, Company Name, Purchase, LastDiv, Industry, and Market Cap).
 5. ```api/stock/{id:int}``` (DELETE): Deletes a stock based on the ID given.
